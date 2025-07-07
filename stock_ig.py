@@ -59,7 +59,7 @@ break_even_pct = (rise / sell_price)*100
 print("Break even %: " + str(break_even_pct))   
 
 print("\n")
-
+print("\n")
 print("profit loss")
 sell_price_out = 4.50  # later input or API#######################  INPUT SELL PRICE HERE
 print("Sell price: £" + str(sell_price_out))
