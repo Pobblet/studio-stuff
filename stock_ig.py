@@ -1,5 +1,5 @@
 monthly_fee = 24 /3  
-tax_pct = 1.5
+tax_pct = 1.5#########################  ################## ##################
 buy_sell_fee = 0.00
 
 stock_name = "Some AI Stock seeing macines"  # later input or API
