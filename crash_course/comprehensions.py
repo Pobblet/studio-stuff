@@ -1,5 +1,4 @@
 list = []
-
 for num in range(1, 11):
     list.append(num**2)
 print(list)
