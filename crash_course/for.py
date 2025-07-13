@@ -13,12 +13,16 @@ print(min(digits))
 print(max(digits))
 print(sum(digits))
 
+############################################################
+
 list = []
 
 for num in range(1, 11):
-    list.append(num)
+    list.append(num**2)
 print(list)
+     
+# COMPREHENSION OF ABOVE FORMULA
 
-squares = [value**2 for value in range(1,11)]
+squares = [num**2 for num in range(1,11)]
 print(squares)
 
