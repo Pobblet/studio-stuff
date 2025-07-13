@@ -9,20 +9,38 @@ for pizza in pizzas:
 
 digits = [1,2,3,4,5,6,7,8,9,0]
 
+############################################################
+
 print(min(digits))
 print(max(digits))
 print(sum(digits))
 
 ############################################################
 
-list = []
+for num in range(1,21):
+    print(num)
 
-for num in range(1, 11):
-    list.append(num**2)
-print(list)
-     
-# COMPREHENSION OF ABOVE FORMULA
+list1 = []
+for num in range(1,1_000_001):
+    list1.append(num)
 
-squares = [num**2 for num in range(1,11)]
-print(squares)
+#for num in list1:
+#    print(num)
+print("\n")
+print(min(list1))
+print(max(list1))
+print(sum(list1))
+
+#############################################################
+print("\n")
+
+for num in range(1,21,2):
+    print(num)   
+
+list2 = []
+
+for num in range(0,31,3):
+    list2.append(num)
+print(list2)    
+
 
